@@ -1,0 +1,541 @@
+/* Banner Start */
+.main-hone .main-hone_banner {
+  position: relative;
+}
+.main-hone .main-hone_banner .banner-text {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 20%;
+}
+.main-hone .main-hone_banner .banner-text .banner-text_welcome,
+.main-hone .main-hone_banner .banner-text .banner-text_studio {
+  color: #66602e;
+  font-size: 40px;
+  font-family: "Cormorant";
+  font-weight: 700;
+  line-height: 48.44px;
+  opacity: 0.6;
+  text-align: center;
+}
+.main-hone .main-hone_banner .banner-text .banner-text_toophouse {
+  color: #d98560;
+  font-size: 48px;
+  font-family: "Cormorant";
+  font-weight: 700;
+  line-height: 58.13px;
+  opacity: 0.6;
+  text-align: center;
+}
+.main-hone .main-hone_banner .banner-text .banner-text_btn {
+  text-align: center;
+  margin-top: 24px;
+}
+.main-hone .main-hone_banner .banner-text .banner-text_btn a {
+  background: #d98560;
+  color: #ffffff;
+  padding: 8px 40px 8px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.68px;
+  border-radius: 4px;
+  opacity: 0.6;
+  cursor: pointer;
+  font-family: "Poppins";
+}
+/* Banner End */
+
+/* Library Start */
+.main-home_library {
+  margin-top: 60px;
+}
+.main-home_library .library-slider {
+  height: 700px;
+  overflow: hidden;
+}
+.main-home_library .library-text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #c08332;
+  font-family: "Cormorant";
+  text-align: center;
+  margin-bottom: 36px;
+}
+.slider-item.active {
+  height: 100%;
+}
+.slider-item.active .slider3 {
+  height: 100%;
+}
+.slider-item.active .slider3 img {
+  height: 100%;
+}
+.slider-item .slider-item_slider {
+  display: none;
+}
+.slider-item .slider3 {
+  display: none;
+}
+.slider-item .slider-item_right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 17px;
+}
+.slider-item.active .slider-item_slider {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+}
+.slider-item.active .slider3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 16px;
+}
+.library-directional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.library-directional ul.library-dotted {
+  display: flex;
+}
+.library-directional ul.library-dotted li {
+  margin-right: 12px;
+  cursor: pointer;
+}
+.library-directional .library-btnctrl {
+  display: flex;
+}
+.library-directional .library-btnctrl.--pev {
+  margin-right: 16px;
+  cursor: pointer;
+}
+.library-directional .library-btnctrl.--next {
+  margin-right: 16px;
+  cursor: pointer;
+}
+.library-directional ul.library-dotted li.item-dotted {
+  color: #d98560;
+}
+/* Library End */
+
+/* Service Start */
+.main-hone_service .service-text {
+  margin-top: 24px;
+  text-align: center;
+  margin-bottom: 42px;
+  color: #c08332;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  font-family: "Cormorant";
+}
+.service-slider_item .service-item .service-item_text {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 36px;
+  color: #66602e;
+  margin-top: 24px;
+}
+.service-request {
+  position: relative;
+  margin-top: 60px;
+}
+.service-request .service-request_information .request-information_container {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 100%;
+  top: 98px;
+}
+.service-information_party,
+.service-information_couple,
+.service-information_photo,
+.service-information_background {
+  text-align: center;
+}
+.service-information_party .service-party_text,
+.service-information_couple .service-couple_text,
+.service-information_photo .service-photo_text,
+.service-information_background .service-background_text {
+  font-weight: 700;
+  font-family: "Cormorant";
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #66602e;
+  margin-top: 40px;
+}
+.service-information_party img,
+.service-information_couple img,
+.service-information_photo img,
+.service-information_background img {
+  width: auto;
+  height: 100px;
+}
+.service-request_textform .service-form_background {
+  width: 820px;
+  height: auto;
+}
+.service-request .service-request_textform {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0%;
+}
+.service-request .service-request_textform .service-form_background {
+  position: relative;
+}
+.service-request
+  .service-request_textform
+  .service-form_background
+  .service-form_let {
+  position: absolute;
+  top: 82px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  font-family: "Poppins";
+  width: 100%;
+  color: #ffffff;
+}
+.service-request
+  .service-request_textform
+  .service-form_background
+  .service-form_requirement {
+  position: absolute;
+  top: 135px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  font-family: "Cormorant";
+  width: 100%;
+  color: #ffffff;
+}
+.service-request
+  .service-request_textform
+  .service-form_background
+  .service-form_question {
+  position: absolute;
+  top: 207px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  font-family: "Poppins";
+  width: 100%;
+  color: #ffffff;
+}
+.service-request_form .service-form_input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 820px;
+  margin: auto;
+  padding-top: 42px;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px #e4d4cd;
+  border-radius: 0px 0px 16px 16px;
+  grid-column-gap: 24px;
+  grid-row-gap: 16px;
+}
+.service-request_form .service-form_input .name,
+.service-request_form .service-form_input .email,
+.service-request_form .service-form_input .phone {
+  width: 335px;
+  height: 40px;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid #dead8d;
+  padding-left: 12px;
+}
+.service-request_form .service-form_input .service-form_select {
+  width: 350px;
+  margin-left: auto;
+  position: relative;
+}
+.service-request_form .service-form_input .service-form_select .service {
+  width: 350px;
+  height: 44px;
+  margin: auto;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid #dead8d;
+  background: white;
+  margin-top: 0px;
+  padding-left: 12px;
+}
+.service-request_form
+  .service-form_input
+  option.service-form_select
+  .service
+  .service-color {
+  color: #908d90;
+}
+
+.service-request_form .service-form_input textarea.content {
+  grid-column: 1 / 3;
+  grid-row: 3;
+  outline: none;
+  margin: 0px 46px;
+  border: 1px solid #dead8d;
+  border-radius: 2px;
+  padding: 12px 0px 0px 12px;
+}
+.service-request_form .service-form_input .name {
+  margin-left: auto;
+}
+.service-request_form .service-form_input .service-form_select i.fa-sort-down {
+  position: absolute;
+  right: 1%;
+  top: 40%;
+  font-size: 18px;
+  transform: translateY(-50%);
+  color: #66602e;
+}
+.service-request_form .service-form_input .submit {
+  width: 184px;
+  height: 40px;
+  grid-column: 1 / 3;
+  grid-row: 4;
+  margin: auto;
+  outline: none;
+  background: #d98560;
+  border: 0px;
+  border-radius: 4px;
+  color: white;
+  font-family: "Poppins";
+  margin-top: 39px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+/* Service End */
+
+/* Camera Start */
+.main-hone_camera
+{
+    margin-top: 60px;
+}
+.main-hone_camera .hone-camera {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 60px;
+}
+.main-hone_camera .hone-camera .home-camera_left
+{
+ margin: auto;
+ width: 600px;
+ text-align: center;
+}
+.main-hone_camera .hone-camera .home-camera_left .camera-left_who
+{
+    text-align: center;
+    margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.8px;
+    text-align: center;
+    font-family: 'Poppins';
+    color: #66602E;
+}
+.main-hone_camera .hone-camera .home-camera_left .camera-left_im
+{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.3px;
+    text-align: center;
+    font-family: 'Cormorant';
+    color: #66602E;
+    margin-bottom: 48px;
+}
+.main-hone_camera .hone-camera .home-camera_left .camera-left_about
+{
+    padding: 12px 64px;
+    background: #D98560;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Poppins';
+}
+
+
+
+
+.main-hone_camera .hone-camera .home-camera_right {
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+}
+.main-hone_camera .hone-camera .home-camera_right img.camera-right_img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Camera End */
+
+
+/* Camera Slider Start */
+.main-hone_cameraslider .hone-cameraslider_item
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 16px;
+    margin-bottom: 60px;
+}
+.main-hone_cameraslider .hone-cameraslider_item .home-cameraslider_right
+{
+   padding-left: 24px;
+   padding-right: 24px;
+   margin: auto;
+}
+.main-hone_cameraslider .hone-cameraslider_item .home-cameraslider_right .cameraslider-right_texttop
+{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.8px;
+    color: #D98560;
+    margin-bottom: 24px;
+}
+.main-hone_cameraslider .hone-cameraslider_item .home-cameraslider_right .cameraslider-right_textmiddo
+{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27.28px;
+    color: #66602E;
+    margin-bottom: 24px;
+}
+.main-hone_cameraslider .hone-cameraslider_item .home-cameraslider_right .cameraslider-right_textbottom
+{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.8px;
+    color: #66602E;
+    margin-bottom: 24px;
+}
+.main-hone_cameraslider .hone-cameraslider_item .home-cameraslider_right .cameraslider-right_readmore
+{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23.68px;
+    color: #3185FF;
+    margin-bottom: 24px;
+    text-decoration: underline;
+}
+/* Camera Slider End */
+
+/* Recent Work Start */
+.main-hone_recentwork .hone-recentwork_title
+{
+    text-align: center;
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #C08332;
+    margin-bottom: 36px;
+}
+.main-hone_recentwork .hone-recentwork_item
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 32px;
+    margin-bottom: 60px;
+}
+.main-hone_recentwork .hone-recentwork_item .recentwork-item_img 
+{
+    height: 700px;
+    overflow: hidden;
+    width: auto;
+    position: relative;
+}
+.main-hone_recentwork .hone-recentwork_item .recentwork-item_img img
+{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    height: 100%;
+}
+.main-hone_recentwork .hone-recentwork_item .recentwork-item_date
+{
+    margin-top: 16px;
+   font-size: 16px;
+   font-family: 'Poppins';
+   font-weight: 400;
+   line-height: 23px;
+   color: #66602E;
+}
+.main-hone_recentwork .hone-recentwork_item .recentwork-item_title
+{
+    margin-top: 24px;
+   font-size: 30px;
+   font-family: 'Poppins';
+   font-weight: 500;
+   line-height: 36px;
+   color: #66602E;
+
+}
+.main-hone_recentwork .hone-recentwork_item .recentwork-item_readmore 
+{
+    margin-top: 32px;
+}
+.main-hone_recentwork .hone-recentwork_item .recentwork-item_readmore a
+{
+   font-size: 16px;
+   font-family: 'Poppins';
+   font-weight: 300;
+   line-height: 36px;
+   color: #3185FF;
+   text-decoration: underline;
+}
+/* Recent Work End */
+
+/* Blog Start */
+.main-hone_blog
+{
+  margin-bottom: 60px;
+}
+.main-hone_blog .hone-blog_title
+{
+   font-size: 48px;
+   font-family: 'Cormorant';
+   font-weight: 700;
+   line-height: 58px;
+   color: #C08332;
+   text-align: center;
+   margin-bottom: 36px;
+}
+.main-hone_blog .hone-blog_item .blog-item
+{
+  position: relative;
+}
+.main-hone_blog .hone-blog_item .blog-item .blog-item_text
+{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 28px;
+  width: 100%;
+  text-align: center;
+}
+/* Blog End  */

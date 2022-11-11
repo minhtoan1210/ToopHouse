@@ -1,0 +1,277 @@
+.deatail-family .deatail-family_banner {
+  width: 100%;
+  height: 825px;
+  overflow: hidden;
+  position: relative;
+}
+.deatail-family .deatail-family_banner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #ffffff;
+  opacity: 0.2;
+}
+.deatail-family .deatail-family_banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Deatail menu Start   */
+.deatail-family .deatail-family_menu .family-menu {
+  margin-top: 60px;
+  text-align: center;
+}
+.deatail-family .deatail-family_menu .family-menu .family-menu_home,
+.deatail-family .deatail-family_menu .family-menu .family-menu_library {
+  margin-right: 8px;
+  color: #66602e;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 19px;
+  text-decoration: revert;
+}
+
+.deatail-family .deatail-family_menu .family-menu .family-menu_family {
+  margin-left: 8px;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 19px;
+  color: #dead8d;
+}
+
+/* Deatail menu End   */
+
+/* Deatail container Start */
+.deatail-family .home-deatail_container .deatail-container {
+  margin-top: 60px;
+  overflow: hidden;
+}
+.deatail-family
+  .home-deatail_container
+  .deatail-container
+  .deatail-container_title {
+  margin-bottom: 24px;
+  text-align: center;
+  font-family: "Cormorant";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58pox;
+  color: #d98560;
+}
+.deatail-family
+  .home-deatail_container
+  .deatail-container
+  .deatail-container_description {
+  text-align: center;
+  text-align: center;
+  font-family: "Cormorant";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #66602e;
+  margin-bottom: 32px;
+}
+.deatail-family
+  .home-deatail_container
+  .deatail-container
+  .deatail-container_img
+  .container-img_row1 {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  margin-bottom: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 16px;
+  overflow: hidden;
+}
+.deatail-family
+  .home-deatail_container
+  .deatail-container
+  .deatail-container_img
+  .container-img_row1
+  .img1 {
+  grid-column: 1 / 3;
+}
+.deatail-family
+  .home-deatail_container
+  .deatail-container
+  .deatail-container_img
+  .container-img_row2 {
+  display: grid;
+  height: 700px;
+  grid-template-columns: repeat(1, 1fr);
+  overflow: hidden;
+}
+.deatail-family
+  .home-deatail_container
+  .deatail-container
+  .deatail-container_img
+  .container-img_row3 {
+  margin-top: 24px;
+  display: grid;
+  height: 700px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 16px;
+}
+.deatail-family
+  .home-deatail_container
+  .deatail-container
+  .deatail-container_img
+  .container-img_row4 {
+  margin-top: 48px;
+  display: grid;
+  height: 700;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 16px;
+}
+.deatail-family
+  .home-deatail_container
+  .deatail-container
+  .deatail-container_img
+  .container-img_row4 .img8{
+    grid-column: 1 / 3;
+}
+.deatail-family
+  .home-deatail_container
+  .deatail-container
+  .deatail-container_img
+  .container-img_row5 {
+  margin-top: 48px;
+  display: grid;
+  height: 700;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 16px;
+}
+.deatail-family
+  .home-deatail_container
+  .deatail-container
+  .deatail-container_img
+  .container-img_row6 {
+    margin-top: 24px;
+    display: grid;
+    height: 700px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 16px;
+}
+/* Deatail container End */
+
+/* Deatail Deatail Relateto Start */
+.deatail-family .home-deatail_relateto .deatail-relateto_title {
+  margin: 60px 0px;
+  color: #66602e;
+  font-family: "Cormorant";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58.13px;
+}
+.deatail-family
+  .home-deatail_relateto
+  .deatail-relateto_slider
+  .relateto-slider_item
+  .slider-item_title {
+  margin: 16px 0px 32px 0px;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #66602e;
+}
+.deatail-family
+  .home-deatail_relateto
+  .deatail-relateto_slider
+  .relateto-slider_item
+  .slider-item_seemore
+  a {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  color: #3185ff;
+  text-decoration: underline;
+}
+/* Deatail Deatail Relateto End */
+
+/* Deatail Contact Start */
+.deatail-family .home-deatail_contact .deatail-contact {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.deatail-family .home-deatail_contact .deatail-contact .deatail-contact_left p {
+  width: 547px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: justify;
+  color: #66602e;
+  line-height: 28.8px;
+}
+.deatail-family .home-deatail_contact .deatail-contact .deatail-contact_right {
+  border: 15px solid #a2a183;
+  padding: 16px 16px 16px 16px;
+  margin-bottom: 60px;
+}
+.deatail-family
+  .home-deatail_contact
+  .deatail-contact
+  .deatail-contact_right
+  .contact-right_text {
+  margin-bottom: 36px;
+  color: #66602e;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+}
+.deatail-family
+  .home-deatail_contact
+  .deatail-contact
+  .deatail-contact_right
+  .contact-right_input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  margin-bottom: 16px;
+}
+.deatail-family
+  .home-deatail_contact
+  .deatail-contact
+  .deatail-contact_right
+  .contact-right_input
+  input {
+  height: 44px;
+  padding-left: 15px;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #dead8d;
+}
+.deatail-family
+  .home-deatail_contact
+  .deatail-contact
+  .deatail-contact_right
+  .contact-right_btn {
+  background: #d98560;
+  width: 100%;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  border: 0px;
+  border-radius: 4px;
+  padding: 12px 0px;
+  cursor: pointer;
+}
+/* Deatail Contact End */

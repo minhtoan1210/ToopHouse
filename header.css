@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0px 16px 0px
+}
+.header .header-right .header-right_menu 
+{
+    display: flex;
+}
+.header .header-right ul.header-right_menu li.header-menu_item a.menu-item_link
+{
+  padding: 0 37.5px 0 37.5px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.91px;
+  color: #DDC9C0;
+  font-family: 'Cormorant';
+}
+.header .header-right ul.header-right_menu li.header-menu_item a.menu-item_link.active
+{
+  color: #C08332;
+  border-bottom: 1px solid #C08332;
+}
+.header .header-right ul.header-right_menu li.header-menu_item
+{
+  margin-right: 16px;
+}

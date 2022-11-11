@@ -1,0 +1,273 @@
+.footer {
+  border-top: 1px solid #dead8d;
+}
+.footer .footer-top {
+  padding-bottom: 37px;
+  border-bottom: 1px solid #dead8d;
+}
+.footer .footer-top .footer-top_left {
+  padding-top: 53px;
+}
+.footer .footer-top .footer-top_left .footer-left_title .footer-title_register {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  font-family: "Poppins";
+  color: #d98560;
+  margin-bottom: 8px;
+}
+.footer .footer-top .footer-top_left .footer-left_title .footer-title_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: "Poppins";
+  color: #66602e;
+}
+.footer .footer-top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.footer .footer-top .footer-top_left {
+  display: flex;
+  align-items: center;
+}
+.footer .footer-top .footer-top_left .footer-left_email {
+  display: flex;
+  position: relative;
+  width: 270px;
+  margin-left: 30px;
+  border: 1px solid #dead8d;
+  border-right: 0px solid #dead8d;
+  border-radius: 4px;
+  height: 30px;
+}
+.footer .footer-top .footer-top_left .footer-left_email input {
+  height: 27px;
+  outline: none;
+  border: 0px solid #dead8d;
+  padding-left: 16px;
+  border-radius: 4px;
+  width: 250px;
+}
+.footer .footer-top .footer-top_left .footer-left_email .footer-email_icon {
+  top: 0%;
+  right: -11%;
+}
+.footer .footer-top .footer-top_left .footer-left_email .footer-email_icon img {
+  padding: 8px;
+  background: #c08332;
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+}
+.footer .footer-top .footer-top_right {
+  padding-top: 53px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.footer .footer-top .footer-top_right img {
+  width: 40px;
+  height: 40px;
+}
+.footer .footer-top .footer-top_right img:nth-child(1),
+.footer .footer-top .footer-top_right img:nth-child(2),
+.footer .footer-top .footer-top_right img:nth-child(3) {
+  margin-right: 16px;
+}
+.footer .footer-middo {
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: 303px auto;
+    grid-column-gap: 303px;
+    margin-bottom: 60px;
+}
+.footer .footer-middo .footer-middo_img {
+  width: 303px;
+  display: inline-block;
+}
+.footer .footer-middo .footer-middo_img {
+  text-align: center;
+}
+.footer .footer-middo .footer-middo_img .middo-img_text span.text-toophouse {
+  display: block;
+  font-size: "Cormorant";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #66602e;
+}
+.footer .footer-middo .footer-middo_img .middo-img_text span.text-companion {
+  display: block;
+  font-size: "Cormorant";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #66602e;
+}
+.footer .footer-middo .footer-middo_img img {
+  width: 80px;
+  height: 80px;
+}
+.footer .footer-middo .footer-middo_text {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_business
+  .middo-text_title {
+  color: #d98560;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+.footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_business
+  .middo-text_startend
+  img {
+  width: 11px;
+  height: 11px;
+  margin-right: 8px;
+}
+.footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_business
+  .middo-text_startend
+  span {
+  color: #66602e;
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_business
+  .middo-text_status {
+  color: #66602e;
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.footer .footer-middo .footer-middo_text .middo-text_email .middo-text_title {
+  color: #d98560;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.76px;
+  margin-bottom: 8px;
+}
+.footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_email
+  .middo-text_phone
+  img {
+  width: 12px;
+  height: 12px;
+  margin-right: 9px;
+}
+.footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_email
+  .middo-text_email
+  img {
+  width: 12px;
+  height: 12px;
+  margin-right: 9px;
+}
+.footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_email
+  .middo-text_website
+  img {
+  width: 12px;
+  height: 12px;
+  margin-right: 9px;
+}
+
+.footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_email
+  .middo-text_phone
+  span,
+.footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_email
+  .middo-text_email
+  span,
+.footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_email
+  .middo-text_website
+  span {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #66602e;
+}
+footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_address
+  .middo-address_title {
+  font-weight: 700;
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 23.76px;
+  color: #d98560;
+  margin-bottom: 8px;
+}
+footer
+  .footer-middo
+  .footer-middo_text
+  .middo-text_address
+  .middo-address_text {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #66602E;
+}
+.footer .footer-bottom
+{
+    border-top: 1px solid #D98560;
+    padding-top: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 42px;
+}
+.footer .footer-bottom .footer-bottom_left
+{
+     font-size: 14px;
+     font-family: 'Poppins';
+     font-weight: 400;
+     line-height: 19.6px;
+     color: #D98560;
+}
+.footer .footer-bottom .footer-bottom_right
+{
+     font-size: 14px;
+     font-family: 'Poppins';
+     font-weight: 400;
+     line-height: 19.6px;
+     color: #D98560;
+}
