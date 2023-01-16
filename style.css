@@ -204,6 +204,7 @@
   font-family: "Poppins";
   width: 100%;
   color: #ffffff;
+  
 }
 .service-request
   .service-request_textform
@@ -254,6 +255,7 @@
   border-radius: 2px;
   border: 1px solid #dead8d;
   padding-left: 12px;
+  color: #7c7e8a;
 }
 .service-request_form .service-form_input .service-form_select {
   width: 350px;
@@ -270,6 +272,7 @@
   background: white;
   margin-top: 0px;
   padding-left: 12px;
+  color: #7c7e8a;
 }
 .service-request_form
   .service-form_input
@@ -287,9 +290,11 @@
   border: 1px solid #dead8d;
   border-radius: 2px;
   padding: 12px 0px 0px 12px;
+  color: #7c7e8a;
 }
 .service-request_form .service-form_input .name {
   margin-left: auto;
+  color: #7c7e8a;
 }
 .service-request_form .service-form_input .service-form_select i.fa-sort-down {
   position: absolute;
